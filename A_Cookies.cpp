@@ -52,15 +52,25 @@ ll M=1000000007;
 
 void masud_valo_hoye_gele_problem_solve_hobe(ll tc)
 {
-    
+    ii(a)
+    vll vc;
+    invec(vc,a)
+    ll sum=accumulate(all(vc),0);
+    ll cnt=0;
+    loop(i,0,a)
+    {
+        ll tmp=sum-vc[i];
+        if(!(tmp & 1)) cnt++;
+    }
+    cout<<cnt<<v;
     //cout<<"Case "<<tc<<": "<<
 }
 
 int main()
 {
     fastio();
-    ll t;
-    cin>>t;
+    ll t=1;
+    //cin>>t;
     ll tc=0;
     while(t--)
     {

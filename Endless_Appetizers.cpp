@@ -52,7 +52,10 @@ ll M=1000000007;
 
 void masud_valo_hoye_gele_problem_solve_hobe(ll tc)
 {
-    
+    ii(a) ii(b) ii(c)
+    ll d=a+(c/30);
+    ll e=(d/b)+(d%b ? 1:0);
+    cout<<e<<v;
     //cout<<"Case "<<tc<<": "<<
 }
 

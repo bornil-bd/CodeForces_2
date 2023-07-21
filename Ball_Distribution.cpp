@@ -52,7 +52,16 @@ ll M=1000000007;
 
 void masud_valo_hoye_gele_problem_solve_hobe(ll tc)
 {
-    
+    ii(a) ii(b)
+    ll total=0;
+    loop(i,0,b)
+    {
+        ii(x)
+        total+=x;
+    }
+    ll ans=a*(b-1);
+    if((total-ans)<0) cout<<"0\n";
+    else cout<<total-ans<<'\n';
     //cout<<"Case "<<tc<<": "<<
 }
 

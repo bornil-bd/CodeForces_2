@@ -52,7 +52,24 @@ ll M=1000000007;
 
 void masud_valo_hoye_gele_problem_solve_hobe(ll tc)
 {
-    
+    ii(a)
+    unordered_map<ll,ll>unp;
+    loop(i,0,a)
+    {
+        ii(x)
+        unp[x]++;
+    }
+    loop(i,0,a)
+    {
+        ii(x)
+        unp[x]++;
+    }
+    ll maxx=INT_MIN;
+    for(auto x:unp)
+    {
+        maxx=max(maxx,x.ss);
+    }
+    cout<<maxx<<v;
     //cout<<"Case "<<tc<<": "<<
 }
 

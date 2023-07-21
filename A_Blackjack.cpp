@@ -52,15 +52,18 @@ ll M=1000000007;
 
 void masud_valo_hoye_gele_problem_solve_hobe(ll tc)
 {
-    
+    ii(a)
+    if(a==20) cout<<"15"<<v;
+    else if(a>10 and a<22) cout<<"4"<<v;
+    else cout<<"0"<<v;
     //cout<<"Case "<<tc<<": "<<
 }
 
 int main()
 {
     fastio();
-    ll t;
-    cin>>t;
+    ll t=1;
+    //cin>>t;
     ll tc=0;
     while(t--)
     {

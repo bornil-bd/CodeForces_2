@@ -52,7 +52,12 @@ ll M=1000000007;
 
 void masud_valo_hoye_gele_problem_solve_hobe(ll tc)
 {
-    
+    ll a,b,c;
+    cin>>a>>b>>c;
+    if((a*b)%c==0) cout<<a*b<<" "<<c<<v;
+    else if((a*c)%b==0) cout<<a*c<<" "<<b<<v;
+    else if((b*c)%a==0) cout<<b*c<<" "<<a<<v;
+    else cout<<"-1"<<v;
     //cout<<"Case "<<tc<<": "<<
 }
 
